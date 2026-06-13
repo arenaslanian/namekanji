@@ -1,7 +1,7 @@
 # 名前 — a study in name kanji
 
 An editorial tool for rendering names — Japanese and foreign — into kanji, with
-phonological adaptation, transparent transliteration, and thematic curation.
+phonological adaptation, transparent transliteration, and thematic curation. Uploaded after working in tandem with Claude Code over the past month or so.
 
 ## What it does
 
