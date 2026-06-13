@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Editorial typography helpers used throughout App.jsx */
+
+body {
+  font-family: "Spectral", "EB Garamond", Georgia, serif;
+  background-color: #f3ecd9;
+  color: #1c1917;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.display {
+  font-family: "Fraunces", serif;
+}
+
+.jp {
+  font-family: "Noto Serif JP", "Spectral", serif;
+}
+
+.smallcaps {
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-weight: 500;
+}
+
+/* Subtle vermilion underline that the artifact uses to mark
+   the currently-selected kanji tile in the accordion shelf. */
+.selected-bar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 2px;
+  background: #a73225;
+}
+
+/* Resetting some default button styling so artifact's inline
+   styles don't fight the browser baseline. */
+button {
+  font: inherit;
+}
